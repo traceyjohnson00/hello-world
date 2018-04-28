@@ -1,4 +1,8 @@
-<header{
+html, body{ 
+	font-family: Arial, sans-serif;
+	margin: 0; 
+}
+header{
 	background-color: #f2f2f2;
 	padding: 40px;
 	text-align: center;
@@ -7,12 +11,17 @@
 
 h1{
 	font-size: 90px;
-	color: white;
+	color: black;
 }
 header img{
 	border-radius: 150px;
+	border: 10px solid: white;
 }
-/*<header>
-		<img src="img/profile.jpg">
-		<h1>Baymax</h1>
-	</header>*/
+
+.content{
+	max-width: 505px;
+	margin: 0 auto;
+}img.big.image{
+	max-width: 160%;
+
+}
